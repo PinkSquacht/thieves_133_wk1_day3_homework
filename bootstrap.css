@@ -1,0 +1,41 @@
+.my-navbar {
+    background-color: rgb(255, 196, 247) !important;
+}
+
+form {
+    max-width: 500px;
+    width: 70%;
+    height: 20%;
+    min-width: 400px;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 1%;
+    padding: 2%;
+    margin: 15vh auto 0 auto;
+}
+.my-btn{
+    background-color: rgb(255, 188, 5);
+    border-radius: 1%;
+    color: black;
+    width: 100%;
+}
+.my-btn:hover {
+    background-color: rgba(255, 188, 5, 0.897);
+    color: black;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 1px solid black;
+    text-align: center;
+    margin-top: 5vh;
+    padding: -100 auto;
+}
+ .my-col{
+    height: 2vh;
+    padding-top: 1vh;
+    border: 1px;
+ }
+.forgotPassword {
+    margin-left: 55%;
+}

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+header {
+    width: 100%;
+    display: flex;
+}
+form {
+    border: 1px solid black;
+    max-width: 400px;
+    width: 10%;
+    min-width: 250px;
+    margin: 10vh;
+    padding: 2%;
+    border-radius: 1.5%;
+    height: 29vh;
+}
+
+input, button {
+    margin-bottom: 5%;
+}
+.text-input{
+    width: 99%;
+}
+
+textarea{
+    width: 99%;
+}
+
+@media (max-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+}
